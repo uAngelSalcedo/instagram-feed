@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://kit.fontawesome.com/099e3a66ac.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div>
+            <i class="fa-brands fa-instagram"></i>
+            <a class="navbar-brand" href="#">Instagram</a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+            <form class="d-flex" role="search">
+              <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Create
+                new post</button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Create new post</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Caption:</label>
+                          <textarea class="form-control" id="message-text"
+                            placeholder="Add the new caption of your post here"></textarea>
+                          <div>
+                            <i class="fa-solid fa-camera"></i>
+                            <i class="fa-solid fa-location-dot"></i>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Publish</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <i class="fa-solid fa-gear"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                  <li><a class="dropdown-item" href="#">Privaciti & Data</a></li>
+                  <li><a class="dropdown-item" href="#">Log out</a></li>
+                </ul>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div>
+      <div class="d-flex align-items-center flex-column">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+              type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+              <i class="fa-solid fa-table-cells"></i></button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+              type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+              <i class="fa-solid fa-square"></i>
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+            tabindex="0">
+            <div class="row container">
+              <div class="col-4 mb-3">
+                <img class="w-100" src="https://picsum.photos/1000/1000?random=1" alt="">
+              </div>
+              <div class="col-4 mb-3">
+                <img class="w-100" src="https://picsum.photos/1000/1000?random=2" alt="">
+              </div>
+              <div class="col-4 mb-3">
+                <img class="w-100" src="https://picsum.photos/1000/1000?random=3" alt="">
+              </div>
+              <div class="col-4 mb-3">
+                <img class="w-100" src="https://picsum.photos/1000/1000?random=4" alt="">
+              </div>
+              <div class="col-4 mb-3">
+                <img class="w-100" src="https://picsum.photos/1000/1000?random=5" alt="">
+              </div>
+              <div class="col-4 mb-3">
+                <img class="w-100" src="https://picsum.photos/1000/1000?random=6" alt="">
+              </div>
+              <div class="col-4 mb-3">
+                <img class="w-100" src="https://picsum.photos/1000/1000?random=7" alt="">
+              </div>
+              <div class="col-4 mb-3">
+                <img class="w-100" src="https://picsum.photos/200/200?random=8" alt="">
+              </div>
+              <div class="col-4 mb-3">
+                <img class="w-100" src="https://picsum.photos/200/200?random=9" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row container">
+          <div class="col-4 mb-3"></div>
+          <div class="col-4 mb-3 border">
+            <div class="d-flex justify-content-between">
+              <h5>Primera Imagen</h5> <span></span>01/09</span>
+            </div>
+            <img class="w-100 p-0 mx-0" src="https://picsum.photos/1000/1000?random=1" alt="">
+            <h5 class="p-1"><strong>180 Likes</strong></h5>
+            <p>esta es la primera imagen random del Feed de instagram, puede ser un paisaje, un objeto, animal o persona, siempre será random y deferente a las demás imágenes.</p>
+          </div>
+          <div class="col-4 mb-3"></div>
+          <div class="col-4 mb-3"></div>
+          <div class="col-4 mb-3 border">
+            <div class="d-flex justify-content-between">
+              <h5>Segunda Imagen</h5> <span></span>02/09</span>
+            </div>
+            <img class="w-100 p-0 mx-0" src="https://picsum.photos/1000/1000?random=2" alt="">
+            <h5 class="p-1"><strong>110 Likes</strong></h5>
+            <p>esta es la segunda imagen random del Feed de instagram, puede ser un paisaje, un objeto, animal o persona, siempre será random y deferente a las demás imágenes.</p>
+          </div>
+          <div class="col-4 mb-3"></div>
+          <div class="col-4 mb-3"></div>
+          <div class="col-4 mb-3 border">
+            <div class="d-flex justify-content-between">
+              <h5>Tercera Imagen</h5> <span></span>03/09</span>
+            </div>
+            <img class="w-100 p-0 mx-0" src="https://picsum.photos/1000/1000?random=3" alt="">
+            <h5 class="p-1"><strong>260 Likes</strong></h5>
+            <p>esta es la tercera imagen random del Feed de instagram, puede ser un paisaje, un objeto, animal o persona, siempre será random y deferente a las demás imágenes.</p>
+          </div>
+          <div class="col-4 mb-3"></div>
+          <div class="col-4 mb-3"></div>
+          <div class="col-4 mb-3 border">
+            <div class="d-flex justify-content-between">
+              <h5>Cuarta Imagen</h5> <span></span>04/09</span>
+            </div>
+            <img class="w-100 p-0 mx-0" src="https://picsum.photos/1000/1000?random=4" alt="">
+            <h5 class="p-1"><strong>100 Likes</strong></h5>
+            <p>esta es la cuarta imagen random del Feed de instagram, puede ser un paisaje, un objeto, animal o persona, siempre será random y deferente a las demás imágenes..</p>
+          </div>
+          <div class="col-4 mb-3"></div>
+          <div class="col-4 mb-3"></div>
+          <div class="col-4 mb-3 border">
+            <div class="d-flex justify-content-between">
+              <h5>Quinta Imagen</h5> <span></span>05/09</span>
+            </div>
+            <img class="w-100 p-0 mx-0" src="https://picsum.photos/1000/1000?random=5" alt="">
+            <h5 class="p-1"><strong>180 Likes</strong></h5>
+            <p>esta es la quinta imagen random del Feed de instagram, puede ser un paisaje, un objeto, animal o persona, siempre será random y deferente a las demás imágenes.</p>
+          </div>
+          <div class="col-4 mb-3"></div>
+          <div class="col-4 mb-3"></div>
+          <div class="col-4 mb-3 border">
+            <div class="d-flex justify-content-between">
+              <h5>Sexta Imagen</h5> <span></span>06/09</span>
+            </div>
+            <img class="w-100 p-0 mx-0" src="https://picsum.photos/1000/1000?random=6" alt="">
+            <h5 class="p-1"><strong>180 Likes</strong></h5>
+            <p>esta es la sexta imagen random del Feed de instagram, puede ser un paisaje, un objeto, animal o persona, siempre será random y deferente a las demás imágenes.</p>
+          </div>
+          <div class="col-4 mb-3"></div>
+          <div class="col-4 mb-3"></div>
+          <div class="col-4 mb-3 border">
+            <div class="d-flex justify-content-between">
+              <h5>Séptima Imagen</h5> <span></span>07/09</span>
+            </div>
+            <img class="w-100 p-0 mx-0" src="https://picsum.photos/1000/1000?random=7" alt="">
+            <h5 class="p-1"><strong>80 Likes</strong></h5>
+            <p>esta es la séptima imagen random del Feed de instagram, puede ser un paisaje, un objeto, animal o persona, siempre será random y deferente a las demás imágenes..</p>
+          </div>
+          <div class="col-4 mb-3"></div>
+          <div class="col-4 mb-3"></div>
+          <div class="col-4 mb-3 border">
+            <div class="d-flex justify-content-between">
+              <h5>Octava Imagen</h5> <span></span>08/09</span>
+            </div>
+            <img class="w-100 p-0 mx-0" src="https://picsum.photos/200/200?random=8" alt="">
+            <h5 class="p-1"><strong>200 Likes</strong></h5>
+            <p>esta es la octava imagen random del Feed de instagram, puede ser un paisaje, un objeto, animal o persona, siempre será random y deferente a las demás imágenes.</p>
+          </div>
+          <div class="col-4 mb-3"></div>
+          <div class="col-4 mb-3"></div>
+          <div class="col-4 mb-3 border">
+            <div class="d-flex justify-content-between">
+              <h5>Novena Imagen</h5> <span></span>09/09</span>
+            </div>
+            <img class="w-100 p-0 mx-0" src="https://picsum.photos/200/200?random=9" alt="">
+            <h5 class="p-1"><strong>380 Likes</strong></h5>
+            <p>esta es la novena imagen random del Feed de instagram, puede ser un paisaje, un objeto, animal o persona, siempre será random y deferente a las demás imágenes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
